@@ -23,9 +23,9 @@ Este repositório contém testes automatizados para a página [Adapt Liviu](http
    npm install
 
 3. Executar os testes no Modo Interativo do Cypress:
-   npx cypress open
+   npx cypress open  
   (Este comando vai abrir a interface gráfica do Cypress. Uma vez aberto, basta selecionar o teste e rodá-lo).
 
 4. Executar os testes no modo Headless do Cypress
-   npx cypress run
+   npx cypress run  
   (Este comando vai executar os testes do Cypress diretamente no terminal, sem a necessidade de uma Interface Gráfica).
