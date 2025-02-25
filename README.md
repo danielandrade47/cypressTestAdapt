@@ -1,0 +1,2 @@
+# cypressTestAdapt
+Teste técnico Adapt
