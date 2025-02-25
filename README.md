@@ -15,7 +15,7 @@ Este repositório contém testes automatizados para a página [Adapt Liviu](http
 - [Visual Studio Code](https://code.visualstudio.com/) (ou outro editor)
 
 ## Passos para Executar os testes:
-1.  Clonar o repositório através do Git:
+1.  Clonar o repositório através do Git:  
   git clone https://github.com/danielandrade47/cypressTestAdapt  
   cd cypressTestAdapt
 
