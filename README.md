@@ -15,17 +15,17 @@ Este repositório contém testes automatizados para a página [Adapt Liviu](http
 - [Visual Studio Code](https://code.visualstudio.com/) (ou outro editor)
 
 ## Passos para Executar os testes:
-1.  Clonar o repositório através do Git:  
+1.  Clonar o repositório através do Git:    
   git clone https://github.com/danielandrade47/cypressTestAdapt  
   cd cypressTestAdapt
 
-2. Instalar as dependências do projeto:
+2. Instalar as dependências do projeto:  
    npm install
 
-3. Executar os testes no Modo Interativo do Cypress:
+3. Executar os testes no Modo Interativo do Cypress:  
    npx cypress open  
   (Este comando vai abrir a interface gráfica do Cypress. Uma vez aberto, basta selecionar o teste e rodá-lo).
 
-4. Executar os testes no modo Headless do Cypress
+4. Executar os testes no modo Headless do Cypress:  
    npx cypress run  
   (Este comando vai executar os testes do Cypress diretamente no terminal, sem a necessidade de uma Interface Gráfica).
