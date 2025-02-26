@@ -11,6 +11,7 @@ describe("Testes do formulário de contato", () => {
     FormPage.preencheEmpresa("Empresa Teste");
     FormPage.selecionaProduto("Liviu Drive");
     FormPage.preencheTelefone("51999999999");
+    FormPage.marcaCheckbox();
     FormPage.preencheMensagem("Mensagem Teste");
     FormPage.enviaFormulario();
 

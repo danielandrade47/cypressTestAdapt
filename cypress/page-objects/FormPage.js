@@ -32,6 +32,10 @@ class FormPage {
     preencheMensagem(message) {
       cy.get('#form-field-field_98bbe7d').type(message);
     }
+
+    marcaCheckbox(checkbox) {
+      cy.get('#form-field-field_757d493').check();
+    }
   
     enviaFormulario() {
       cy.get('button[type="submit"]').click();
