@@ -16,9 +16,14 @@ class FormPage {
       cy.get('#form-field-email').type(email);
     }
 
-    preencheEmpresa(empresa) {
-        cy.get('#form-field-message').type(empresa);
+    selecionaProduto(produto) {
+      cy.get('#form-field-field_f4f7f90').select(produto);
+
     }
+
+    preencheEmpresa(empresa) {
+      cy.get('#form-field-message').type(empresa);
+  }
 
     preencheTelefone(telefone) {
         cy.get('#form-field-field_195975d').type(telefone);

@@ -9,6 +9,7 @@ describe("Testes do formulário de contato", () => {
     FormPage.preencheNome("Daniel Andrade QA");
     FormPage.preencheEmail("email@teste.com");
     FormPage.preencheEmpresa("Empresa Teste");
+    FormPage.selecionaProduto("Liviu Drive");
     FormPage.preencheTelefone("51999999999");
     FormPage.preencheMensagem("Mensagem Teste");
     FormPage.enviaFormulario();
